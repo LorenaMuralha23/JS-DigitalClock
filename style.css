@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Supermercado One', cursive;
-}
-
 body{
     width: 100%;
     height: 100vh;
@@ -16,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #digClock{
@@ -25,4 +17,5 @@ body{
     color: rgb(41, 212, 41);
     background-color: #000;
     border: 3px solid gray;
+    font-family: 'Supermercado One', cursive;
 }
